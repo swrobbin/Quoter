@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Amiri', serif;
+}
+:root {
+    --primary-color: #000000;
+    --secondary-color: #dacb77;
+}
+body {
+background-image: url(../Quoter/jeremy-bishop-v1ySnKYCtrE-unsplash.jpg);
+background-repeat: no-repeat;
+background-size: 1500px;
+
+align-items: center;
+justify-content: center;
+height: 60vh;
+padding: 200px 220px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    width: 1000px;
+    background-color: rgba(255, 255, 255, 0.3);
+    margin: 10px;
+}
+#new-quote-container {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    width: 1000px;
+    background-color: rgba(255, 255, 255, 0.3);
+    margin: 10px;
+}
+.fa-quote.left {
+    font-size: 84px;
+    color:  var(--secondary-color);
+    margin-bottom: 10px;
+}
+.quote {
+    text-align: center;
+    font-style: italic;
+    color: var(--primary-color);
+
+}
+.author {
+    color: var(--secondary-color);
+    font-size: 20px;
+}
+hr {
+    margin: 10px, 0;
+    width: 90%;
+    border: 2px solid #00000088;
+
+}
+.buttons {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+
+}
+
+
+.buttons button {
+    cursor: pointer;
+    border: none;
+    color: var(--secondary-color);
+    font-size: 20px;
+    font-weight: 700;
+    background-color: var(--primary-color);
+    padding: 10px;
+    border-radius: 8px;
+
+}
+button:focus {
+    outline: none;
+}
+#new-quote-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+    border-radius: 4px;
+    width: 600px;
+    background-color: rgba(255, 255, 255, 0.3);
+    margin: 10px;
+
+}
+.input-text {
+    width: 300px;
+}
+.buttons {
+    border-radius: 10px; 
+}
